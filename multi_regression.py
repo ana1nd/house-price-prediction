@@ -67,3 +67,5 @@ def ExploratoryDataAnalysis(train):
     
     # find correlation for each category feature with targetFeature value
     categoryCorrList = FindCorrelationWithEachFeature(category, category.columns.tolist(), 'SalePrice')
+    
+    # outlier detection/modification for category features
